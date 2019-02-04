@@ -1,0 +1,144 @@
+      .navbar{
+        margin-bottom:0;
+        border-radius:0;
+      }
+
+      body {
+        font-family: 'Oswald', sans-serif ;
+        background-color: #b3cde;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .container-pad {
+        padding:10px;
+      }
+
+      .headshot {
+        width:800px;
+        height:auto;
+        border:0px solid #011f4b;
+      }
+
+      .blurb {
+        font-size:0.9em;
+        flex-basis:75%;
+        text-align: justify;
+        font-family:'Oswald', sans-serif;
+        color: grey;
+      }
+
+      .main-name {
+        font-size:6.0em;
+        margin-left:5px;
+        margin-top:10px;
+        color: #005b96;
+      }
+
+      .sub-name {
+        color: grey;
+        margin-left:10px;
+
+      }
+
+      .section-header {
+        font-size:4.5em;
+        color: #011f4b;
+      }
+
+      .section-sub-header {
+        font-size:2.0em;
+        color:grey;
+        padding:3px;
+      }
+
+      .section-sub-content {
+        font-size:1.2em;
+        color:grey;
+        padding:3px;
+        text-align:justified;
+      }
+
+      .section-list-content {
+        font-size:1.2em;
+        color:grey;
+        padding:3px;
+      }
+
+      .tile {
+        object-fit:cover;
+        margin: 10px;
+        padding:0px;
+        size:80%;
+        position:relative;
+      }
+
+      .tile img {
+        width:100%
+        vertical-align:top;
+      }
+
+      .tile:after {
+            content:'\A';
+            position:absolute;
+            width:100%; height:100%;
+            top:0; left:0;
+            background:rgba(0,0,0,0.6);
+            opacity:0;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+      }
+
+      .tile:hover:after {
+        opacity:1;
+      }
+
+      .fa {
+        padding: 20px;
+        width:300 px
+        height:auto;
+      }
+
+      .fa:hover {
+        opacity:0.7;
+      }
+
+      .p-lang-icon {
+        width:50px;
+        height:auto;
+        display: inline;
+        align:right;
+        padding:5px;
+        
+      }
+
+      .rosFRET-image {
+        display:block;
+        width:80%;
+        text-align:center;
+      }
+
+      .neurons-o2-stress-image {
+        display:block;
+        width:60%;
+        text-align:center;      }
+
+      .navbar-custom {
+          background-color: #03396c;
+      }
+      /* change the brand and text color */
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-text {
+          color: rgba(255,255,255,.8);
+      }
+      /* change the link color */
+      .navbar-custom .navbar-nav .nav-link {
+          color: rgba(255,255,255,.5);
+      }
+      /* change the color of active or hovered links */
+      .navbar-custom .nav-item.active .nav-link,
+      .navbar-custom .nav-item:hover .nav-link {
+          color: #ffffff;
+      }
